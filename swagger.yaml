@@ -38,6 +38,7 @@ paths:
           description: "Random Joke"
           schema:
             $ref: "#/definitions/Joke"
+            example: "{'id':'hiVSCdUvXg','joke':'I heard there was a new store called Moderation. They have everything there'}"
             
   /jokes/{id}/translate:
     get:
